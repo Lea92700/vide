@@ -1,9 +1,8 @@
-<?php
-include('header.php');
-?>
-
+<?php get_header() ?>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="wp-content/themes/vide/style.css" rel="stylesheet">
+<img src="http://localhost/nathalie/wp-content/uploads/2023/09/photo_header.png">
 </head>
+
+<?php get_footer() ?>

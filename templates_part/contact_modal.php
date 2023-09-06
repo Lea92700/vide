@@ -1,19 +1,7 @@
-
-<div class="modal" id="contactModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Contactez-nous</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-            </div>
-        </div>
+<div class="modal">
+    <div class="modal-content">
+        <form>
+            [contact-form-7 id="92fc754" title="Formulaire de contact 1"]
+        </form>
     </div>
 </div>
