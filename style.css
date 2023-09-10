@@ -60,6 +60,18 @@ body{
     margin-right: 10px;
 }
 
+#form-select{
+border-radius: 8px;
+    padding-right: 100px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    border: 2px solid;
+    border-color: rgb(218, 215, 215);
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
 .galerie {
     display: flex;
     flex-wrap: wrap;

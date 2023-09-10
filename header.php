@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div id="logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/Logo.png" alt="Votre Logo">
+                <img src="<?php echo get_template_directory_uri(); ?>http://localhost/nathalie/wp-content/uploads/2023/09/cropped-cropped-cropped-Logo-2.png" alt="Votre Logo">
             </a>
         </div>
         <?php wp_nav_menu([
@@ -23,32 +23,3 @@
         <img class="photo_event" src="http://localhost/nathalie/wp-content/uploads/2023/09/photo_header.png">
     </div>
 
-<select name="catégories" id="cat-select">
-  <option value="catégories">CATÉGORIES</option>
-  <option value="reception">Réception</option>
-  <option value="mariage">Mariage</option>
-  <option value="concert">Concert</option>
-  <option value="tv">Télévision</option>
-</select>
-
-<select name="format" id="cat-select">
-  <option value="format">FORMATS</option>
-  <option value="paysage">Paysage</option>
-  <option value="portrait">Portrait</option>
-</select>
-
-<div class="galerie">
-        <div class="gallery-item">
-            <img src="http://localhost/nathalie/wp-content/uploads/2023/09/nathalie-0.jpeg.jpg" alt="Image 1">
-        </div>
-        <div class="gallery-item">
-            <img src="http://localhost/nathalie/wp-content/uploads/2023/09/nathalie-1.jpeg.jpg" alt="Image 2">
-        </div>
-        <div class="gallery-item">
-            <img src="http://localhost/nathalie/wp-content/uploads/2023/09/nathalie-2.jpeg.jpg" alt="Image 3">
-        </div>
-        <div class="gallery-item">
-            <img src="http://localhost/nathalie/wp-content/uploads/2023/09/nathalie-3.jpeg.jpg" alt="Image 4">
-        </div>
-</body>
-</html>
