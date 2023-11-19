@@ -1,0 +1,243 @@
+/*
+Theme Name: test
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme. Sample child theme.
+Author: OceanWP
+Author URI: https://oceanwp.org/
+Template: test
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+body{
+    font-family: 'Space Mono', monospace;
+}
+ 
+ #menu-header{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    border: 1px white;
+    background-color: white;
+ }
+
+ li {
+    display : inline;
+    padding-right: 20px;
+}
+
+#menu-header li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.collapse img{
+    display: flex;
+}
+
+#menu-footer{
+     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border: solid 1px white;
+    border-top: 1px solid black;
+    background-color: white;
+}
+
+#menu-footer li a {
+    color: black;
+    text-decoration: none;
+}
+
+.photo_event{
+    width: 100%;
+}
+
+#cat-select{
+    border-radius: 8px;
+    padding-right: 100px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    border: 2px solid;
+    border-color: rgb(218, 215, 215);
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#form-select{
+border-radius: 8px;
+    padding-right: 100px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    border: 2px solid;
+    border-color: rgb(218, 215, 215);
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 33%;
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu{
+display: flex;
+margin-right: 10px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+}
+
+.collapse img{
+    display: flex;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+
+
+/****SINGLE.PHP*****/
+
+.photo-meta {
+    font-family: 'Space Mono';
+}
+
+.content-zone{
+  display: flex;
+}
+
+.titre_meta{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 200px;
+}
+
+.photo_image{
+  display: flex;
+  justify-content: end;
+}
+
+.contact_interesse{
+  display: flex;
+}
+
+.contact-button{
+  font-family: 'Space Mono';
+  background-color: #D8D8D8;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-color: #D8D8D8;
+  box-shadow: none;
+  margin-left: 170px;
+}
+
+#banner{
+  margin-top: 50px;
+}
+
+.categ{
+  text-decoration: none;
+}
+/*****MODALE*****/
+
+  .modal-btn {
+    padding: 10px 14px;
+    font-size: 18px;
+    margin: 100px auto;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+  }
+  
+  .modal-container {
+    /* display: none; */
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: visibility 0.4s;
+  }
+  .modal-container.active {
+    /* display: block; */
+    visibility: visible;
+  }
+  
+  .overlay {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+    transition: opacity 0.4s 0.2s ease-out;
+  }
+  
+  .modal-container.active .overlay {
+    opacity: 1;
+    transition: opacity 0.4s ease-out;
+  }
+  
+  .modal {
+    opacity: 0;
+    width: 95%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% - 50px));
+    transition: opacity 0.4s ease-out,
+    transform 0.4s ease-out;
+  }
+  
+  .modal-container.active .modal {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.4s 0.2s ease-out,
+    transform 0.4s 0.2s ease-out;
+  }
+  
+  .close-modal {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #ff365e;
+    color: #fff;
+  }
+
+/*****FILTRE*****/
+
+.filtre_categ{
+    border-radius : 10px 10px 10px 10px;
+}

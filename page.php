@@ -1,3 +1,4 @@
+<link href="wp-content/themes/vide/style.css" rel="stylesheet">
 <?php
 
 get_header();
